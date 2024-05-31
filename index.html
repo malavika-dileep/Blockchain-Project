@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Record Marks</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Record Marks Portal</h1>
+        <form id="assignmentForm">
+            <div class="form-group">
+                <label for="facultyName">Faculty Name:</label>
+                <input type="text" id="facultyName" name="facultyName" required>
+            </div>
+            <div class="form-group">
+                <label for="studentUSN">Student USN:</label>
+                <input type="text" id="studentUSN" name="studentUSN" required>
+            </div>
+            <div class="form-group">
+                <label for="recordMarks">Record Marks:</label>
+                <input type="text" id="recordMarks" name="recordMarks" required>
+            </div>
+            <div class="form-group">
+                <label for="remarks">Remarks:</label>
+                <textarea id="remarks" name="remarks" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="assignmentDetails"></div> <!-- This is where the details will be displayed -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.3/dist/web3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

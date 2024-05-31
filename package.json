@@ -1,0 +1,19 @@
+{
+    "name": "blockchain-project",
+    "version": "1.0.0",
+    "description": "A blockchain project to upload and store resume data.",
+    "main": "index.js",
+    "scripts": {
+      "dev": "lite-server"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "lite-server": "^2.6.1",
+      "truffle": "^5.11.5",
+      "web3": "^1.7.3"
+    },
+    "devDependencies": {
+      "lite-server": "^2.6.1"
+    }
+  }
